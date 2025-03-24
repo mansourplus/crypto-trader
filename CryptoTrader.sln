@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7015FF9A-C538-412A-B0E2-70C842CCFBC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoTrader.Core", "src\CryptoTrader.Core\CryptoTrader.Core.csproj", "{D8A0CABB-3825-4693-B95F-1127F6534C80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoTrader.Application", "src\CryptoTrader.Application\CryptoTrader.Application.csproj", "{A2EFDA97-797E-4298-918B-4D200CB85D17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoTrader.Infrastructure", "src\CryptoTrader.Infrastructure\CryptoTrader.Infrastructure.csproj", "{E24EA796-FF1F-49D2-BEB9-9640913995A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoTrader.API", "src\CryptoTrader.API\CryptoTrader.API.csproj", "{1FF240AF-5664-4940-A290-D5079226BC8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8A0CABB-3825-4693-B95F-1127F6534C80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8A0CABB-3825-4693-B95F-1127F6534C80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8A0CABB-3825-4693-B95F-1127F6534C80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8A0CABB-3825-4693-B95F-1127F6534C80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2EFDA97-797E-4298-918B-4D200CB85D17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2EFDA97-797E-4298-918B-4D200CB85D17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2EFDA97-797E-4298-918B-4D200CB85D17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2EFDA97-797E-4298-918B-4D200CB85D17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E24EA796-FF1F-49D2-BEB9-9640913995A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E24EA796-FF1F-49D2-BEB9-9640913995A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E24EA796-FF1F-49D2-BEB9-9640913995A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E24EA796-FF1F-49D2-BEB9-9640913995A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FF240AF-5664-4940-A290-D5079226BC8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FF240AF-5664-4940-A290-D5079226BC8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FF240AF-5664-4940-A290-D5079226BC8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FF240AF-5664-4940-A290-D5079226BC8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D8A0CABB-3825-4693-B95F-1127F6534C80} = {7015FF9A-C538-412A-B0E2-70C842CCFBC1}
+		{A2EFDA97-797E-4298-918B-4D200CB85D17} = {7015FF9A-C538-412A-B0E2-70C842CCFBC1}
+		{E24EA796-FF1F-49D2-BEB9-9640913995A4} = {7015FF9A-C538-412A-B0E2-70C842CCFBC1}
+		{1FF240AF-5664-4940-A290-D5079226BC8F} = {7015FF9A-C538-412A-B0E2-70C842CCFBC1}
+	EndGlobalSection
+EndGlobal
